@@ -1,0 +1,31 @@
+{
+  "name": "p2p-confs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spb-frontend/p2p-confs.git"
+  },
+  "author": {
+    "name": "Spb Frontend"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register test/**/*",
+    "test:watch": "npm run test -- -w",
+    "cz": "git add . && git cz",
+    "czp": "npm run cz && git push"
+  },
+  "devDependencies": {
+    "babel": "^5.5.8",
+    "babel-core": "^5.8.34",
+    "babel-runtime": "^5.8.20",
+    "chai": "^3.2.0",
+    "cz-conventional-changelog": "^1.1.5",
+    "expect": "^1.13.0",
+    "mocha": "^2.2.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
