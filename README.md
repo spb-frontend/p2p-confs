@@ -24,6 +24,6 @@ npm run test:watch
 
 не могу заставить использовать - но настоятельно рекомендую=)
 
-чтобы использовать `npm install -g commitizen и `git cz` в папке репы
+чтобы использовать `npm install -g commitizen` и `git cz` в папке репы
 
-я очень ленивый поэтому `git add . && git cz` можно делать `npm run cz` `czp` делает еще и пуш
+я очень ленивый поэтому `git add . && git cz` можно делать `npm run cz`, а `czp` делает еще и пуш
